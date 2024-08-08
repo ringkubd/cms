@@ -1,0 +1,47 @@
+{
+  "short_name": "IsDB-BISEW",
+  "name": "Islamic Development Bank-Bangladesh Islamic Solidarity Educational Wakf",
+  "icons": [
+    {
+      "src": "/img/logo.png",
+      "type": "image/png",
+      "sizes": "306x340"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#21b14b",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#21b14b",
+  "shortcuts": [
+    {
+      "name": "IT Scholarship Programme",
+      "short_name": "IT Programme",
+      "description": "The objective of the programme is to enhance the employment prospects of Muslim youths (who come from financially disadvantaged background) from different non-IT backgrounds like Science, Humanities, Business and Madrasah. The programme imparts one-year long high quality and professional level IT training of global standard to ensure gainful employment.",
+      "url": "/it-scholarship-programme",
+      "icons": [{ "src": "/img/IT-Scholarship.jpg", "sizes": "1200x678" }]
+    },
+    {
+      "name": "Vocational Scholarship Programme",
+      "short_name": "Vocational Programme",
+      "description": "IsDB-BISEW has undertaken demand-driven vocational trade training programme targeting the young populace (Dropouts after 8 years of schooling, class VIII standard) who are not attached with formal education system and are financially challenged. The objective of the programme is to provide skills leading to sustainable employment.",
+      "url": "/vocational-training-programme",
+      "icons": [{ "src": "/img/logo.png", "sizes": "306x340" }]
+    }
+  ],
+  "description": "IsDB-BISEW was established following an agreement between the Islamic Development Bank, Jeddah, Saudi Arabia, and the Government of Bangladesh.",
+  "screenshots": [
+    {
+      "src": "/isdb-bisew.org.png",
+      "type": "image/png",
+      "sizes": "1308x1826"
+    }
+  ],
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "com.ringkubd.isdbbisewapp"
+    }
+  ]
+}

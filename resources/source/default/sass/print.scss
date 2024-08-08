@@ -1,0 +1,143 @@
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+.vt_admin_card {
+  .card {
+    margin: 2px 2px 20px;
+    border-color: rgba(0, 0, 0, 0.4);
+
+    .card-header {
+      padding: 10px 15px;
+      border-bottom: none;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+      color: #333;
+      background-color: #FFF;
+
+      .logo-img {
+        width: 120px;
+      }
+    }
+
+    .vt_title {
+      margin-top: 21px;
+      font-size: 28px;
+      line-height: 30px;
+      font-weight: 600;
+      color: #333;
+
+      &.sub_title {
+        color: #333;
+        margin: 8px 0;
+      }
+    }
+
+    .card-body {
+      padding: 15px;
+
+      .candidate-img {
+        border: 2px solid #dee2e6;
+      }
+
+      ul {
+        li {
+          font-size: 16px;
+          margin-bottom: 4px;
+        }
+      }
+    }
+
+    .table-bordered th,
+    .table-bordered td {
+      border: 1px solid rgba(0, 0, 0, 0.4);
+    }
+
+    .table td {
+      font-size: 16px;
+      border-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .logo-brief {
+      font-size: 14px;
+      margin: 3px 0 10px;
+
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+
+}
+
+
+@media print {
+  #printContent {
+    margin: 50px 20px 20px !important;
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      color: #444 !important;
+    }
+
+    h1 {
+      font-size: 22px !important;
+      line-height: 28px !important;
+    }
+
+    h2 {
+      font-size: 18px;
+      line-height: 22px;
+    }
+
+    h3 {
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    h4 {
+      font-size: 14px;
+      line-height: 18px;
+    }
+
+    p {
+      text-align: justify;
+      color: #333;
+    }
+
+    .logo-print-area {
+      display: block;
+      margin-bottom: 50px;
+
+      &.nav-brand {
+        img {
+          margin-right: 10px;
+          width: 65px;
+        }
+
+        .logoTextArea {
+          margin: 0.3rem 0;
+        }
+
+        .logotext {
+          font-size: 26px;
+          font-weight: 700;
+          color: #444;
+          margin: 0;
+        }
+
+        .tagline {
+          font-size: 14px;
+          font-weight: 400;
+          color: #333;
+          margin: 0;
+          line-height: 16px;
+        }
+      }
+    }
+
+
+  }
+}
